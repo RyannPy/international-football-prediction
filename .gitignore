@@ -24,3 +24,15 @@ Thumbs.db
 # Generated files
 reports/figures/
 reports/metrics/
+
+# Generated datasets
+data/interim/*
+data/processed/*
+
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+
+# models
+models/*
+!models/.gitkeep
